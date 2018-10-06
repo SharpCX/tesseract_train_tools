@@ -1,0 +1,16 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "makebox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decode-tiff": "^0.2.1",
+    "pngjs": "^3.3.3",
+    "shelljs": "^0.8.2"
+  }
+}
