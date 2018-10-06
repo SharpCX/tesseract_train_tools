@@ -5,5 +5,5 @@ script_dir = __dirname
 
 train_file_list = [];
 shell.ls('*.png').forEach(function (tiff_file) {
-    shell.exec(`python ${script_dir}/convertpngtotiff.py ${tiff_file}`)// 生成box文件
+    shell.exec(`python ${script_dir}/convertpngtotiff.py ${tiff_file}`)
 });
